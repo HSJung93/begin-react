@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+- 리액트 연습을 위한 레포지토리입니다.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
