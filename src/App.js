@@ -2,6 +2,8 @@ import React from 'react';
 import Hello from './Hello';
 import Wrapper from './Wrapper';
 import './App.css'
+import Counter from './Counter';
+import InputSample from './inputSample';
 
 function App() {
 
@@ -16,7 +18,9 @@ function App() {
 
   return (
     <>
-      <Hello name = "app에서 hello로 넘겨주는 이름" color = "red" isSpecial={true}/>
+      <InputSample />
+      <Counter />
+      <Hello name = "app에서 hello로 넘겨주는 이름" color = "red" isSpecial/>
 
       <Wrapper>
         <Hello color="pink"/>
